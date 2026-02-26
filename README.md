@@ -12,7 +12,7 @@ The **Archaeal Proteome Project (ArcPP)** is a *community-driven scientific init
 * Produces an interactive database of reliably identified archaeal proteins that researchers can *query, compare and build on*.
 
 **🧬 Process**
-* Collect public mass spectrometry (MS) proteomics datasets
+* [Collect public mass spectrometry (MS) proteomics datasets] (https://github.com/shikhasaini15/Archaeal-Proteome-Project/blob/main/Pride_Data_Download.py)
 * Compile and prepare a unified proteome reference database
 * Optimise search parameters for peptide identification
 * Perform peptide spectrum matching across datasets
