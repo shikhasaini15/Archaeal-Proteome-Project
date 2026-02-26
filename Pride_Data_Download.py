@@ -26,21 +26,15 @@ def main():
         "ftp_url": "ftp://ftp.pride.ebi.ac.uk",
         # 'ftp_login': 'PASS00269',
         # 'ftp_password': 'FI4645a',
-        "ftp_folder": "pride/data/archive/2018/12/PXD009111/",
+        "ftp_folder": "pride/data/archive/2014/02/PXD000202",
         "ftp_include_ext": [
-            "Saci_Stavation_01.raw",
-            "Saci_Stavation_02.raw",
-            "Saci_Stavation_03.raw",
-            "Saci_Stavation_04.raw",
-            "Saci_Stavation_05.raw",
-            "Saci_Stavation_06.raw",
-            "Saci_Stavation_POOL-1.raw",
-            "Saci_Stavation_POOL.raw",
-            "Saci_Stavation_Pool_1-2.raw",
-            "Saci_Stavation_Pool_3-4.raw",
-            "Saci_Stavation_Pool_5-6.raw",
+            "110224_OV3_P3_BH_HA_SACO_1_1.raw",
+            "110224_OV3_P3_BH_HA_SACO_1_10.raw",
+            "110224_OV3_P3_BH_HA_SACO_1_2.raw",
+            "110224_OV3_P3_BH_HA_SACO_1_3.raw",
+            "110224_OV3_P3_BH_HA_SACO_1_4.raw",
         ],
-        "ftp_output_folder": "C:\\Users\\Admin\\Documents\\ProGlycProt_collab\\tutorial\\PXD009111",
+        "ftp_output_folder": "/Volumes/Pohlschroder_1/ArcPP/PXD000202",
     }
     if os.path.exists(params["ftp_output_folder"]) is False:
         print("Ceated folder: {0}".format(params["ftp_output_folder"]))
